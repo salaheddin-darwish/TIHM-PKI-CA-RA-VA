@@ -1,0 +1,10 @@
+// download SSH Server in CA
+
+sudo apt-get install openssh-server
+
+// authorised the keys 
+mv id_rsa.pub authorized_keys
+
+
+//check public key (need to do that in remote machine and copy the result int knownhosts file)
+ssh-keyscan -t rsa 192.168.56.103

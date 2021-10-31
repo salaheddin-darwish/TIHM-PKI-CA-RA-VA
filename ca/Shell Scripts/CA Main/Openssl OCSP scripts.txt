@@ -1,0 +1,7 @@
+# run OCSP server
+
+openssl ocsp -port 9081 -index ~/va/index.txt -rsigner ~/va/ocsp.crt -rkey ~/va/private/prvKeyw.key -CA ~/va/TIHM-CA.crt -ignore_err -text -out ~/va/server_log.txt
+
+# request the OCSP server 
+
+openssl ocsp -issuer  ~/va/TIHM-CA.crt -nonce -CAfile ~/va/TIHM-CA.crt -url http://10.201.2.6:9081 -serial "0x04"  -resp_text

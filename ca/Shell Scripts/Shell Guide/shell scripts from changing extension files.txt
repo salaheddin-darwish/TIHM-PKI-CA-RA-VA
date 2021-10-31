@@ -1,0 +1,53 @@
+convert_html_to_php.sh
+
+#!/bin/bash
+# Make a php copy of any html files
+for value in $1/*.html
+do
+cp $value $1/$( basename -s .html $value ).php
+done
+
+
+
+================
+
+List of files using shell scripts
+
+ for file in ~/ra/certificates/*.crt ; 
+	
+ do   printf "%s\n" "$file"; 
+
+ done
+
+
+shopt -s nullglob; for file in ~/ra/certificates/*.crt ; do   printf "%s\n" "$file" ; printf "%s\n" $( basename -s .crt $file ) ;done;
+
+
+===========================================================
+
+In bash, you can set the nullglob option so that a pattern that matches nothing "disappears", rather than treated as a literal string:
+
+shopt -s nullglob
+for fname in *.zip ; do
+   echo "current file is ${fname}"
+done
+In POSIX shell script, you just verify that fname exists (and at the same time with [ -f ], check it is a regular file (or symlink to regular file) and not other types like directory/fifo/device...):
+
+for fname in *.zip; do
+    [ -f "$fname" ] || continue
+    printf '%s\n' "current file is $fname"
+done
+Replace [ -f "$fname" ] with [ -e "$fname" ] || [ -L "$fname ] if you want to loop over all the (non-hidden) files whose name ends in .zip regardless of their type.
+
+Replace *.zip with .*.zip .zip *.zip if you also want to consider hidden files whose name ends in .zip.
+
+========================================================
+First, get file name without the path:
+
+filename=$(basename "$fullfile")
+extension="${filename##*.}"
+filename="${filename%.*}"
+Alternatively, you can focus on the last '/' of the path instead of the '.' which should work even if you have unpredictable file extensions:
+
+filename="${fullfile##*/}"
+

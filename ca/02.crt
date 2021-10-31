@@ -1,0 +1,82 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=GB, ST=London, L=London, O=TIHM Certificatiothority, OU=IG, CN=TIHM CA
+        Validity
+            Not Before: Jan 17 00:26:20 2017 GMT
+            Not After : Jan 17 00:26:20 2020 GMT
+        Subject: C=GB, ST=London, L=Egham, O=RHUL, OU=ISG, CN=Salaheddin/emailAddress=Salaheddin.darwish@rhul.ac.uk
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:99:b7:1f:f5:6d:c6:41:e1:22:53:c0:e6:ff:e0:
+                    0e:b6:a4:99:44:82:43:46:23:44:39:78:35:21:bf:
+                    38:1f:e3:eb:20:dd:41:81:14:91:76:1d:68:f7:23:
+                    11:9c:a7:2b:de:33:cb:53:32:31:dc:e0:1e:73:e9:
+                    da:4f:0b:28:8a:ba:18:12:f0:d3:a7:cb:fa:d3:6c:
+                    69:fe:01:5b:f4:52:47:3b:a5:da:67:54:de:cd:9a:
+                    76:95:cc:fb:19:fa:95:8c:38:af:e1:4a:2f:3e:4a:
+                    60:b2:88:5d:7f:08:54:c1:9c:13:5d:cd:72:53:aa:
+                    4d:90:e5:95:8b:6f:76:1e:ec:fd:65:87:4c:23:08:
+                    a2:3f:a6:70:35:31:77:52:17:a8:03:b0:10:fb:88:
+                    d8:ee:87:49:0c:3a:b6:91:f2:e9:81:27:dd:5b:30:
+                    d6:56:74:ec:c8:54:84:43:c8:df:5d:47:28:fd:56:
+                    07:0c:69:5d:bd:96:32:4e:d5:09:65:f9:00:3a:3a:
+                    48:a3:ba:ae:67:a9:9a:c8:97:a4:c2:bb:1d:b1:55:
+                    34:fc:85:00:4a:61:03:4d:78:d3:bf:70:de:d4:db:
+                    67:73:ac:92:5a:00:da:f6:1a:2e:24:b5:06:b3:ce:
+                    0e:a1:74:57:62:cd:2c:80:1f:0a:ce:d7:9e:9f:c0:
+                    8d:ff
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                OCSP Signing
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.pki.tihm.org:8888
+
+    Signature Algorithm: sha256WithRSAEncryption
+         24:03:52:6a:c4:6d:65:96:ad:4a:9c:50:ba:87:bc:17:05:a6:
+         fe:dc:12:fe:fa:b5:f2:8c:29:3c:cb:7b:ba:f2:e6:70:e4:81:
+         99:a7:7d:ed:87:5c:0b:c9:99:03:7c:3a:30:83:12:07:2b:a3:
+         b6:42:0d:2b:3c:ac:00:a4:5f:fa:bc:3e:73:e8:d5:ca:dd:f5:
+         c9:0c:e0:4d:ab:4a:66:66:d3:43:a9:39:20:ac:5c:4e:44:3c:
+         4e:b3:a1:72:62:0b:d0:73:37:cf:ff:0b:62:8e:b8:bf:11:24:
+         6e:6b:42:8e:14:85:dd:ef:45:c0:d5:c1:7d:a0:08:57:1b:c9:
+         1a:21:0a:3b:2a:ac:76:6c:74:1b:ac:7a:62:63:31:63:d9:b7:
+         7c:89:b5:ab:63:ae:91:4e:27:80:bc:b2:ff:e8:d1:a3:59:fd:
+         1d:72:a6:5e:9f:b7:b3:47:c1:a8:82:99:52:a7:42:48:f8:7e:
+         03:5b:1d:c7:19:d0:38:2d:ac:4e:a2:97:32:14:de:49:30:23:
+         35:93:de:33:3f:73:01:ff:2e:9b:75:bc:79:c6:de:65:e8:7d:
+         5f:63:cd:6e:87:26:0a:78:ef:1f:40:2f:ed:39:b1:d1:3e:b3:
+         5d:5f:16:b4:ea:92:c2:dd:b5:31:db:13:d1:5b:90:6c:26:6a:
+         1b:d0:9b:e0
+-----BEGIN CERTIFICATE-----
+MIID5TCCAs2gAwIBAgIBAjANBgkqhkiG9w0BAQsFADBxMQswCQYDVQQGEwJHQjEP
+MA0GA1UECAwGTG9uZG9uMQ8wDQYDVQQHDAZMb25kb24xITAfBgNVBAoMGFRJSE0g
+Q2VydGlmaWNhdGlvdGhvcml0eTELMAkGA1UECwwCSUcxEDAOBgNVBAMMB1RJSE0g
+Q0EwHhcNMTcwMTE3MDAyNjIwWhcNMjAwMTE3MDAyNjIwWjCBjjELMAkGA1UEBhMC
+R0IxDzANBgNVBAgMBkxvbmRvbjEOMAwGA1UEBwwFRWdoYW0xDTALBgNVBAoMBFJI
+VUwxDDAKBgNVBAsMA0lTRzETMBEGA1UEAwwKU2FsYWhlZGRpbjEsMCoGCSqGSIb3
+DQEJARYdU2FsYWhlZGRpbi5kYXJ3aXNoQHJodWwuYWMudWswggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCZtx/1bcZB4SJTwOb/4A62pJlEgkNGI0Q5eDUh
+vzgf4+sg3UGBFJF2HWj3IxGcpyveM8tTMjHc4B5z6dpPCyiKuhgS8NOny/rTbGn+
+AVv0Ukc7pdpnVN7NmnaVzPsZ+pWMOK/hSi8+SmCyiF1/CFTBnBNdzXJTqk2Q5ZWL
+b3Ye7P1lh0wjCKI/pnA1MXdSF6gDsBD7iNjuh0kMOraR8umBJ91bMNZWdOzIVIRD
+yN9dRyj9VgcMaV29ljJO1Qll+QA6Okijuq5nqZrIl6TCux2xVTT8hQBKYQNNeNO/
+cN7U22dzrJJaANr2Gi4ktQazzg6hdFdizSyAHwrO156fwI3/AgMBAAGjajBoMAkG
+A1UdEwQCMAAwCwYDVR0PBAQDAgXgMBMGA1UdJQQMMAoGCCsGAQUFBwMJMDkGCCsG
+AQUFBwEBBC0wKzApBggrBgEFBQcwAYYdaHR0cDovL29jc3AucGtpLnRpaG0ub3Jn
+Ojg4ODgwDQYJKoZIhvcNAQELBQADggEBACQDUmrEbWWWrUqcULqHvBcFpv7cEv76
+tfKMKTzLe7ry5nDkgZmnfe2HXAvJmQN8OjCDEgcro7ZCDSs8rACkX/q8PnPo1crd
+9ckM4E2rSmZm00OpOSCsXE5EPE6zoXJiC9BzN8//C2KOuL8RJG5rQo4Uhd3vRcDV
+wX2gCFcbyRohCjsqrHZsdBusemJjMWPZt3yJtatjrpFOJ4C8sv/o0aNZ/R1ypl6f
+t7NHwaiCmVKnQkj4fgNbHccZ0DgtrE6ilzIU3kkwIzWT3jM/cwH/Lpt1vHnG3mXo
+fV9jzW6HJgp47x9AL+05sdE+s11fFrTqksLdtTHbE9FbkGwmahvQm+A=
+-----END CERTIFICATE-----

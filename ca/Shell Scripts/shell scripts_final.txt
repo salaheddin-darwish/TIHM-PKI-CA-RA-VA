@@ -1,0 +1,20 @@
+chmod +x /etc/ssl/revoke_cert.sh
+
+#for calling /etc/ssl/revoke_cert.sh without Sudo Command
+
+
+
+sudo visudo
+
+# Add to file the following entry
+# salah ALL = NOPASSWD: /etc/ssl/revoke_cert.sh
+
+
+
+
+
+
+#allow username salah to remove and write to the folder 
+setfacl -m u:salah:rwx /etc/ssl/newcerts-ra
+
+chown salah  newcerts-ra
