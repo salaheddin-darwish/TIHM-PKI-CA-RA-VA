@@ -1,0 +1,46 @@
+h2 {
+	padding: 0;
+	margin-bottom: 20px;
+	font-size: 21px;
+	line-height: inherit;
+	color: #333333;
+	border: 0;
+	border-bottom: 1px solid #e5e5e5;	
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+	border: 1px solid #ddd;
+}
+
+.revoked {
+	opacity: 0.7;
+    bgcolor: #ef2929;
+}
+.form-control
+{
+ width: 300px;
+}
+
+.custom {
+    width: 500px !important;
+    height: 120px !important; 
+    line-height: 110px !important; /* <- changed this */
+    box-sizing: border-box !important; /* <- added this */
+    vertical-align:middle !important;
+}
+
+
+.custom1 {
+    width: 200px !important;
+    height: 50px !important; 
+    line-height: 40px !important; /* <- changed this */
+    box-sizing: border-box !important; /* <- added this */
+    vertical-align:middle !important;
+    font-size: 14px !important;
+}
+
+/* .btn { */
+/*     other, unchanged, CSS */
+/*     line-height: 120px; <- changed this */
+/*     box-sizing: border-box; <- added this */
+/* } */
