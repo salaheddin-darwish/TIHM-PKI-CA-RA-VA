@@ -47,7 +47,7 @@
         removeAbandoned="true"
         logAbandoned="true"
         name="jdbc/RA_DB" 
-        password="Salaheddin1980#" 
+        password="1234" 
         removeAbandonedTimeout="300" 
         type="javax.sql.DataSource" 
         url="jdbc:mysql://localhost:3306/RA_DB?autoReconnect=true" username="root"/>
