@@ -17,7 +17,7 @@
 ![alt text](https://github.com/salaheddin-darwish/TIHM-PKI-CA-RA-VA-/blob/master/Images/Main%20Page%20with%20user.jpg?raw=true)
 
 ****
-## Certificate Archive Page:
+## Certificates Directory Page:
 
 ![alt text](https://github.com/salaheddin-darwish/TIHM-PKI-CA-RA-VA-/blob/master/Images/Ceritifcate%20Archive.jpg?raw=true)
 
