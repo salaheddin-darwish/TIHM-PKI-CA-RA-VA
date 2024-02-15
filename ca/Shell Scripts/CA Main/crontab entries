@@ -1,2 +1,2 @@
 # m h  dom mon dow   command
-50,10,15 14-20 * * * /etc/ssl/s1.sh
+50,10,15 14-20 * * * /etc/ssl/issue_cert_final.sh
