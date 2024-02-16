@@ -11,6 +11,16 @@ As a security research team member at the Royal Holloway University of London, I
   <li>Certification Authority - CA: OpenSSL + shell scripts for creation and revocation + private CA Key and root CA certificate+ crontab : check the folder --> ca/Shell Scripts/CA Main</li>
   <li>Validation Authority - VA: OpenSSL + shell scripts (CRL update): please check the shell script --> ca/Shell Scripts/CA Main/update_va.sh</li>
  </ol>
+
+## System requirements:
+<ol type="A">
+<li> Eclipse IDE: https://www.eclipse.org/downloads/ </li>
+<li> Apache Tomcat v8.5: https://tomcat.apache.org/download-80.cgi  </li>
+<li> JDK 1.8.0_101 </li>
+<Li> MySQL Database: https://www.mysql.com/downloads/ </Li>
+
+
+ </ol>
  
 ## Website Interface: 
  ![alt text](https://github.com/salaheddin-darwish/TIHM-PKI-CA-RA-VA-/blob/master/Images/Main%20Page%20with%20user.jpg?raw=true)
