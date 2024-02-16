@@ -8,8 +8,8 @@ As a security research team member at the Royal Holloway University of London, I
 <ol type="1">
   <li>Registration Authority - RA: Tomcat web server+ Frontend (Java Server Page -JSP) + SSH, please check the folder --> tihm-pki-ra V36 (VMware SSL enabled) </li> 
   <li>Registration Authority MySQL Database: please check this zip file for more details --> Database Schema.zip</li>
-  <li>Certification Authority - CA: openssl + shellscripts + certificate folder + crontab: check the folder --> ca/Shell Scripts/CA Main</li>
-  <li>Validation Authority - VA: openssl + shellscripts (CRL update): please check the shell script --> ca/Shell Scripts/CA Main/update_va.sh</li>
+  <li>Certification Authority - CA: OpenSSL + shell scripts for creation and revocation + private CA Key and root CA certificate+ crontab : check the folder --> ca/Shell Scripts/CA Main</li>
+  <li>Validation Authority - VA: OpenSSL + shell scripts (CRL update): please check the shell script --> ca/Shell Scripts/CA Main/update_va.sh</li>
  </ol>
  
 ## Website Interface: 
