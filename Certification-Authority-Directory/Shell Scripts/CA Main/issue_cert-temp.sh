@@ -4,7 +4,7 @@ echo " Start Issuing the certificates for outsanding requests" ;
 shopt -s nullglob
 for file in /home/ca-admin/ca/csrfiles-ca/*.csr 	
 do
-printf 'y\ny\n' | openssl ca -in $file  -out /home/ca-admin/ca/newcerts-ra/$(basename -s .csr $file).crt -extensions v3_OCSP -config /home/ca-admin/ca/openssl.cnf -policy policy_anything -passin pass:&&-$****$
+printf 'y\ny\n' | openssl ca -in $file  -out /home/ca-admin/ca/newcerts-ra/$(basename -s .csr $file).crt -extensions v3_OCSP -config /home/ca-admin/ca/openssl.cnf -policy policy_anything -passin pass:02-x....x
 if [ "$?" != "0" ]; then
     echo  "$now: $(basename $file)" >> /home/ca-admin/ca/errors.txt
     echo "======================================================================="

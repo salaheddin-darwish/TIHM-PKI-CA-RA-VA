@@ -20,7 +20,7 @@ SSL_CERTS_DIR="$SSL_DIR/newcerts"
 
 # Revoke a particular user's certificate.
 
-openssl ca -config $SSL_DIR/openssl.cnf -revoke $SSL_CERTS_DIR/${CERT_SN}.pem -passin pass:&&-$****$
+openssl ca -config $SSL_DIR/openssl.cnf -revoke $SSL_CERTS_DIR/${CERT_SN}.pem -passin pass:02-x....x
 if [ "$?" != "0" ]; then
     echo  "Revocation Error in ${CERT_SN}" >> $SSL_DIR/rev_errors.txt
     echo "Error Encountered in revoking the certificate"
@@ -31,7 +31,7 @@ echo ">>>>>> ${CERT_SN}.pem is revoked"
 
 # Update the Certificate Revocation list for removing 'user certificates.'
 
-openssl ca -config $SSL_DIR/openssl.cnf -gencrl -out $SSL_DIR/crl/crl.pem -passin pass:&&-$****$
+openssl ca -config $SSL_DIR/openssl.cnf -gencrl -out $SSL_DIR/crl/crl.pem -passin pass:02-x....x
 if [ "$?" != "0" ]; then
     echo  "CRL Error in ${CERT_SN}" >> $SSL_DIR/rev_errors.txt 
     echo "Error Encountered in generating CRL"
