@@ -12,7 +12,7 @@ As a security research team member at the Royal Holloway University of London, I
   <li>Validation Authority - VA: OpenSSL + shell scripts (CRL update): please check the shell script --> ca/Shell Scripts/CA Main/update_va.sh</li>
  </ol>
 
-## System requirements:
+## System Requirements:
 <ol type="A">
 <li> Eclipse IDE: https://www.eclipse.org/downloads/ </li>
 <li> Apache Tomcat v8.5: https://tomcat.apache.org/download-80.cgi  </li>
