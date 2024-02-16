@@ -86,8 +86,8 @@
              <!-- <Certificate certificateKeystoreFile="/home/salah/ra/pk/server.keystore"-->
                   <Certificate certificateKeystoreFile="/home/salah/ra/pk/domain_server.keystore"
                          certificateKeyAlias="tomcat"
-                         certificateKeyPassword="$****$-&&"
-                         certificateKeystorePassword="$****$-&&"
+                         certificateKeyPassword="x....x-01"
+                         certificateKeystorePassword="x....x-01"
                          type="RSA" />
         </SSLHostConfig>
     </Connector>
@@ -112,7 +112,7 @@
 			<Certificate 
 				certificateKeyFile="/home/salah/ra/pk/prvKeyRa.key"
 				certificateFile="/home/salah/ra/pk/RA_CSR.crt"
-				certificateKeyPassword="$****$-&&"		
+				certificateKeyPassword="x....x-01"		
 				certificateChainFile="/home/salah/ra/TIHM-CA.crt"
 				type="RSA"/>
   		</SSLHostConfig> 
@@ -136,7 +136,7 @@
 			<Certificate 
 				certificateKeyFile="/home/salah/ra/pk/prvKeyRa.key"
 				certificateFile="/home/salah/ra/pk/RA_CSR.crt"
-				certificateKeyPassword="$****$-&&"		
+				certificateKeyPassword="x....x-01"		
 				certificateChainFile="/home/salah/ra/TIHM-CA.crt"
 				type="RSA"/>
   		</SSLHostConfig>

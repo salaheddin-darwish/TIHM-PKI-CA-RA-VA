@@ -3,6 +3,6 @@ openssl pkcs12 -export -in RA_CSR.crt -inkey prvKeyRa.key \
                -CAfile TIHM-CA.crt -caname "TIHM ROOT CA"
 
 keytool -importkeystore \
-        -deststorepass $****$-&& -destkeypass $****$-&& -destkeystore server.keystore \
-        -srckeystore server.p12 -srcstoretype PKCS12 -srcstorepass $****$-&& \
+        -deststorepass x....x-01 -destkeypass x....x-01 -destkeystore server.keystore \
+        -srckeystore server.p12 -srcstoretype PKCS12 -srcstorepass x....x-01 \
         -alias tomcat
